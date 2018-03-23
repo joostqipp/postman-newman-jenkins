@@ -1,0 +1,18 @@
+{
+  "name": "export",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "main": "index.js",
+  "scripts": {
+    "api-tests": "newman run tests/Trello.postman_collection.json"
+  },
+  "keywords": [
+    "Joost",
+    "de",
+    "Jong"
+  ],
+  "author": "Joost de Jong",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
