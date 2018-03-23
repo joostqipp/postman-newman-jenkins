@@ -4,7 +4,6 @@
   "description": "Project for storing Postman tests",
   "main": "index.js",
   "scripts": {
-    "api-tests-config": "newman run tests/Trello API Acceptance environment.postman_environment.json",
     "api-tests": "newman run tests/Trello.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "keywords": [
